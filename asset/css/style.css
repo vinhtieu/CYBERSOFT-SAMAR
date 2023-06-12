@@ -392,6 +392,26 @@ a {
   width: 50%;
 }
 
+.features__text .title{
+  animation-duration: 2s;
+  animation-delay: 0.2s;
+}
+
+.features__text .card:first-of-type(1) {
+  animation-duration: 2s;
+  animation-delay: 0.4s;
+}
+
+.features__text .card:nth-of-type(2) {
+  animation-duration: 2s;
+  animation-delay: 0.6s;
+}
+
+.features__text .card:last-of-type(3) {
+  animation-duration: 2s;
+  animation-delay: 0.8s;
+}
+
 .features .card {
   padding: 30px;
   display: flex;
